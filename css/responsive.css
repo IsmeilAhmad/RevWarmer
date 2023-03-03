@@ -1,0 +1,480 @@
+@media (min-width: 1440px) {}
+
+@media (max-width: 1400px) {
+    .result-sec .text-box h3 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .result-sec .text-box p {
+        max-width: 400px;
+        width: 100%;
+    }
+    .choose-box {
+        padding: 50px 17px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner-sec .text-box h1 {
+        font-size: 38px;
+        max-width: 390px;
+        line-height: 48px;
+        margin: 0px 0 5px 0;
+    }
+    .banner-sec .text-box ul li span {
+        font-size: 44px;
+    }
+    .banner-sec .text-box p {
+        margin: 25px 0;
+    }
+    .choose-box {
+        padding: 30px 15px;
+        min-height: 345px;
+    }
+    .choose-box p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 0 10px 0;
+    }
+    .about-sec .text-box h3 {
+        font-size: 30px;
+        margin: 0 0 20px 0;
+    }
+    .about-sec .text-box P {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 0 10px 0;
+    }
+    .about-sec .text-box .calendar-btn {
+        margin: 20px 0 0 0;
+    }
+    .result-sec .text-box h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .result-sec .text-box p {
+        max-width: 350px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px 0;
+    }
+    .calendar-btn {
+        margin: 15px 0 0 0;
+    }
+    .result-right {
+        padding: 50px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 45px;
+        height: 45px;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: -15px;
+        left: auto;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: -15px;
+        right: auto;
+    }
+    .client-sec::after {
+        left: -30px;
+        top: 20px;
+        width: 300px;
+        height: 225px;
+    }
+    .title h2 {
+        font-size: 28px;
+    }
+    .testimonial-box {
+        padding: 95px 50px 45px 45px;
+    }
+    .testimonial-box .text-box h4 {
+        font-size: 16px;
+        margin: 0 0 15px 0;
+    }
+    .testimonial-box .text-box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .quotes {
+        right: 35px;
+        top: 25px;
+    }
+    .quotes img {
+        height: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 25px 0;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 30px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .navbar-brand img {
+        height: 20px;
+    }
+    .banner-sec {
+        padding: 50px 0;
+    }
+    .banner-sec .text-box h1 {
+        font-size: 30px;
+        max-width: 310px;
+        line-height: 40px;
+    }
+    .banner-sec .text-box ul li span {
+        font-size: 34px;
+    }
+    .banner-sec .text-box p {
+        margin: 15px 0;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .book-btn {
+        width: 260px;
+        font-size: 14px;
+    }
+    .title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .choose-box {
+        min-height: 270px;
+    }
+    .choose-box p {
+        max-width: 100%;
+    }
+    .about-sec .text-box {
+        margin: 0;
+    }
+    .about-sec .text-box h3 {
+        font-size: 24px;
+        margin: 0px 0 15px 0;
+    }
+    .about-sec .text-box P {
+        line-height: 20px;
+        margin: 0 0 5px 0;
+    }
+    .client-inner p {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+    .result-sec .text-box h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .result-right {
+        padding: 20px;
+    }
+    .testimonial-box {
+        padding: 95px 30px 30px 30px;
+        box-shadow: 0px 10px 5px rgb(144 181 255 / 16%);
+    }
+    .testimonial-box .text-box h4 {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+    .footer-link ul li {
+        margin: 0 0 10px 0;
+    }
+    .footer-link form a {
+        width: 80px;
+        margin-left: 5px;
+    }
+    .footer-link form .form-control {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container,
+    .container-sm {
+        max-width: 100%;
+    }
+    header {
+        padding: 20px 0;
+    }
+    .navbar-toggler {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+    .navbar-toggler span {
+        background-color: #1A0F43;
+        width: 24px;
+        height: 2px;
+        margin-bottom: 6px;
+        display: block;
+    }
+    .navbar-toggler span:last-child {
+        margin: 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-collapse {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        top: 40px;
+        padding: 10px 20px;
+    }
+    .navbar-nav .nav-item {
+        margin: 10px 0px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .navbar-nav .nav-item .nav-link::after {
+        bottom: -8px;
+    }
+    .banner-sec .text-box h1 {
+        font-size: 46px;
+        max-width: 480px;
+        line-height: 60px;
+    }
+    .banner-sec .text-box ul li span {
+        font-size: 50px;
+    }
+    .banner-sec .text-box p {
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 100%;
+    }
+    .banner-sec .image-holder {
+        margin: 50px 0 0 0;
+    }
+    .choose-us-sec {
+        padding: 50px 0;
+    }
+    .title h2 {
+        font-size: 32px;
+    }
+    .choose-box {
+        min-height: 300px;
+    }
+    .about-sec {
+        padding: 50px 0;
+    }
+    .about-sec .image-holder {
+        margin-bottom: 30px;
+    }
+    .about-sec .text-box h3 {
+        font-size: 32px;
+        margin: 0px 0 20px 0;
+    }
+    .about-sec .text-box P {
+        line-height: 26px;
+        margin: 0 0 10px 0;
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .result-sec .text-box {
+        margin: 0 0 50px 0;
+    }
+    .result-sec .text-box h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .result-sec .text-box p {
+        max-width: 100%;
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 10px 0;
+    }
+    .calendar-btn .book-btn::after {
+        bottom: -10px;
+    }
+    .result-sec {
+        padding: 50px 0;
+    }
+    .result-right {
+        padding: 20px;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .result-sec::after {
+        left: -30px;
+        bottom: 20px;
+        width: 210px;
+        height: 120px;
+    }
+    .testimonial-sec {
+        padding: 50px 0;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    .footer-link {
+        margin-bottom: 30px;
+    }
+    .footer-link h3 {
+        margin: 0 0 15px 0;
+    }
+    .footer-link form {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-sec .text-box h1 {
+        font-size: 32px;
+        max-width: 330px;
+        line-height: 44px;
+    }
+    .banner-sec .text-box ul li span {
+        font-size: 36px;
+    }
+    .banner-sec .text-box p {
+        margin: 15px 0;
+        line-height: 22px;
+    }
+    .title h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .choose-box {
+        min-height: auto;
+        padding: 20px;
+    }
+    .choose-box span {
+        margin: 0 0 20px 0;
+    }
+    .choose-us-inner {
+        margin: 15px 0 0 0;
+    }
+    .about-sec .text-box h3 {
+        font-size: 24px;
+        margin: 0px 0 15px 0;
+    }
+    .about-sec .text-box P {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .client-sec {
+        padding: 0;
+    }
+    .client-inner p {
+        font-size: 14px;
+        margin: 0px 0 15px 0;
+        line-height: 20px;
+    }
+    .client-inner ul {
+        flex-wrap: wrap;
+        justify-contnt: center;
+    }
+    .client-inner ul li {
+        width: 33.3%;
+    }
+    .client-sec::after {
+        display: none;
+    }
+    .result-sec .text-box h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .result-sec .text-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .result-sec {
+        padding: 50px 0 0;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+    .swiper-button-next img,
+    .swiper-button-prev img {
+        height: 13px;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: -10px;
+        right: auto;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: -10px;
+        left: auto;
+    }
+    .testimonial-inner .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 2px;
+        right: auto;
+    }
+    .testimonial-inner .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: -2px;
+        left: auto;
+    }
+    .testimonial-box .text-box p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .swiper-pagination {
+        margin: 15px 0 0 0;
+    }
+    .social-media {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 374px) {
+    .banner-sec .text-box h1 {
+        font-size: 28px;
+        max-width: 285px;
+        line-height: 40px;
+    }
+    .banner-sec .text-box ul li span {
+        font-size: 28px;
+    }
+    .banner-sec .text-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .title h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .about-sec .text-box h3 {
+        font-size: 20px;
+    }
+    .result-sec .text-box h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .testimonial-box {
+        padding: 75px 20px 20px 20px;
+    }
+    .testimonial-box .image-holder {
+        left: 10px;
+        top: -50px;
+    }
+    .testimonial-box .image-holder img {
+        height: 110px;
+    }
+    .quotes img {
+        height: 20px;
+    }
+    .quotes {
+        right: 25px;
+        top: 20px;
+    }
+    .testimonialSwiper {
+        padding: 45px 15px 15px 15px;
+    }
+}
